@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.808.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollUp.Api", "PollUp.Api\PollUp.Api.csproj", "{87F5C52C-66E0-4E8A-9F70-BCE4482F6CC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollUp.Api", "src\PollUp.Api\PollUp.Api.csproj", "{4D07A14C-E985-4440-A087-B137F30F37D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CF1715F9-17EC-4DDC-AA31-AF44D141BC1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{651F0297-C572-4020-B77E-E956BFAE5F65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{87F5C52C-66E0-4E8A-9F70-BCE4482F6CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87F5C52C-66E0-4E8A-9F70-BCE4482F6CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87F5C52C-66E0-4E8A-9F70-BCE4482F6CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87F5C52C-66E0-4E8A-9F70-BCE4482F6CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D07A14C-E985-4440-A087-B137F30F37D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D07A14C-E985-4440-A087-B137F30F37D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D07A14C-E985-4440-A087-B137F30F37D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D07A14C-E985-4440-A087-B137F30F37D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3A36E82-D3EF-4EFC-95C7-93092A3D2536}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D07A14C-E985-4440-A087-B137F30F37D6} = {CF1715F9-17EC-4DDC-AA31-AF44D141BC1A}
 	EndGlobalSection
 EndGlobal
