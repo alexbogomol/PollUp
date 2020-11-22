@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
-namespace PollUp.Api.Controllers
+﻿namespace PollUp.Api.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+
     [ApiController]
     [Route("[controller]")]
     public class PollController : ControllerBase
     {
-        private static int _votes = 0;
-        private static int _yeses = 0;
+        private static int _votes;
+        private static int _yeses;
 
         [Route("yes")]
         [HttpPost]
